@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+</head>
+<body>
+	<h1>here are the fruits</h1>
+	<% for(let i = 0; i < fruitsList.length; i++){ %>
+		<a href="/Fruits/<%= i %>"><h2><%= fruitsList[i].name%></h2>
+	<% } %>
+</body>
+</html>
